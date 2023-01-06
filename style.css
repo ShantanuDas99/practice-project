@@ -1,27 +1,28 @@
 * {
   margin: 0;
   font-family: "Inter", sans-serif;
-  font-family: "Poppins", sans-serif;
 }
+
+/* banner styles */
 header {
-  background-image: url(images/donation4.jpg);
+  background-image: url(images/donation13.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 450px;
   text-align: center;
-  padding: 200px 400px;
+  padding: 250px 350px;
 }
 .banner-title {
   color: #fff;
   font-size: 80px;
-  font-weight: 500px;
+  font-weight: 700;
 }
 .banner-subtitle {
   color: #fff;
   font-size: 25px;
   font-weight: 300;
   margin-top: 32px;
-  margin-bottom: 30px;
+  margin-bottom: 38px;
 }
 .btn-primary {
   background: #ff6347;
@@ -33,7 +34,46 @@ header {
   padding: 20px 30px;
 }
 .title-primary {
+  color: black;
+  font-size: 60px;
 }
 .subtitle-primary {
   color: dimgray;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+/* main styles */
+main {
+  /* text-align: center; */
+}
+.donate-section {
+  margin-top: 180px;
+  text-align: center;
+}
+
+.donate {
+  padding: 50px 20px;
+  font-size: 30px;
+  margin-left: 20px;
+  font-weight: 500;
+  color: azure;
+  border: 0;
+  border-radius: 4px;
+}
+.donate-btn .donate h3 {
+  color: brown;
+}
+.donate-section input {
+  border: 0;
+  color: lightgray;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+hr {
+  color: lightgray;
+  margin: 40px 550px;
 }
